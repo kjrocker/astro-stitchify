@@ -82,6 +82,8 @@ const getJSSelection = () => {
 };
 
 const combineContents = (html, css, js) => `
+---
+---
 ${html}
 
 <style lang="scss">
