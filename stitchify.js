@@ -110,7 +110,7 @@ const getContentSelections = () => {
 // Create and style the button
 function createStitchButton() {
     const button = document.createElement('button');
-    button.textContent = 'Copy Test Component';
+    button.textContent = 'Extract Astro Component';
     button.style.cssText = `
         background: none;
         border: 1px solid #ccc;
