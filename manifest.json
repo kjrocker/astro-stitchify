@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "AstroStitchify",
+  "version": "1.0",
+  "description": "A tool to extract Astro components from CodeStitch",
+  "permissions": [
+    "activeTab",
+    "clipboardWrite"
+  ],
+  "icons": {
+    "48": "icons/icon-48.png"
+  },
+  "content_scripts": [{
+    "matches": ["*://codestitch.app/*"],
+    "js": ["stitchify.js"]
+  }]
+}
