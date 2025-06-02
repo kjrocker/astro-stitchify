@@ -21,4 +21,5 @@ By "neatly formatted" I literally just mean empty frontmatter and some top-level
 </script>
 ```
 
-
+# Links
+- [Firefox Extension](https://addons.mozilla.org/en-US/firefox/addon/astrostitchify/)
